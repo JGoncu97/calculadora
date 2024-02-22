@@ -21,6 +21,10 @@ function factorial(num1 ) {
     }
     return total
 }
+//Funcion para exponentes de un numero
+function exponent(num1,exponenteNum) {
+    return num1**exponenteNum
+}
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(

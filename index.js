@@ -25,6 +25,10 @@ function factorial(num1 ) {
 function exponent(num1,exponenteNum) {
     return num1**exponenteNum
 }
+//Funcion para Raiz Cuadrada de un numero
+function raizCuadrada(num1) {
+    return num1 ** 0.5
+}
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
